@@ -1,0 +1,14 @@
+# .gitignore for turisti-email-service
+
+# Dependencies
+node_modules/
+
+# Environment variables file (secret!)
+.env
+
+# Log files (if any are created)
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db 

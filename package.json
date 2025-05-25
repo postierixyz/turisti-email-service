@@ -1,0 +1,23 @@
+{
+  "name": "turisti-email-service",
+  "version": "1.0.0",
+  "description": "A microservice to send emails using Nodemailer for Turisti eSIM.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "email",
+    "nodemailer",
+    "microservice",
+    "turisti"
+  ],
+  "author": "Your Name/Turisti Team",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
+    "dotenv": "^16.4.5"
+  }
+} 
